@@ -18,3 +18,21 @@ $age = 25;
  * 
  * İyi çalışmalar.
  */
+
+if ($age >= 0) {
+    switch ($age) {
+        case $age >= 0 && $age <= 14:
+            echo "Çocuk";
+            break;
+        case $age > 14 && $age <= 24:
+            echo "Genç";
+            break;
+        case $age > 24 && $age <= 64:
+            echo "Yetişkin";
+            break;
+
+        default:
+            echo "Yaşlı";
+            break;
+    }
+}
